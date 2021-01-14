@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CocurrentDemos/CoccurrentDemos.iml" filepath="$PROJECT_DIR$/CocurrentDemos/CoccurrentDemos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NioDemos/NIODemos.iml" filepath="$PROJECT_DIR$/NioDemos/NIODemos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RedisDemos/RedisDemos.iml" filepath="$PROJECT_DIR$/RedisDemos/RedisDemos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ZookeeperDemos/ZookeeperDemos.iml" filepath="$PROJECT_DIR$/ZookeeperDemos/ZookeeperDemos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chatcommon/chatCommon.iml" filepath="$PROJECT_DIR$/chatcommon/chatCommon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/crazyCircleDemos.iml" filepath="$PROJECT_DIR$/crazyCircleDemos.iml" />
+    </modules>
+  </component>
+</project>
