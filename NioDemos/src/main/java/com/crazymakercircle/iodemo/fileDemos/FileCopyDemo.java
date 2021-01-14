@@ -20,7 +20,7 @@ public class FileCopyDemo {
     public static void main(String[] args) {
         //演示复制资源文件
         copyResouceFile();
-        //test
+
         System.out.println("args = " + args);
     }
 
