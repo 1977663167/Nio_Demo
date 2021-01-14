@@ -1,0 +1,42 @@
+# Compiled class file
+target/
+*.class
+
+# Log file
+logs/
+
+# Package Files
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# idea files
+.idea/
+*.iml
+*.ipr
+*.iws
+*.yml
+
+# eclipse files
+.settings/
+*.prefs
+*.classpath
+*.project
+
+
+/fin-oper-api/.gitignore
+
+/fin-oper-web/.gitignore
+
+/work/
+**/logs/
+**/runtime/
+
+
+/.idea/workspace.xml
+/logs/vkmqlogs/rocketmq_client.log
+.idea/workspace.xml
+logs/vkmqlogs/rocketmq_client.log
