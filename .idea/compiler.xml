@@ -2,12 +2,14 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="chatCommon" />
         <module name="CoccurrentDemos" />
+        <module name="NettyDemos" />
         <module name="NIODemos" />
         <module name="RedisDemos" />
         <module name="ZookeeperDemos" />
@@ -17,6 +19,7 @@
       <module name="chatCommon" target="1.8" />
       <module name="CoccurrentDemos" target="1.8" />
       <module name="crazyCircleDemos" target="1.8" />
+      <module name="NettyDemos" target="1.8" />
       <module name="NIODemos" target="1.8" />
       <module name="RedisDemos" target="1.8" />
       <module name="ZookeeperDemos" target="1.8" />

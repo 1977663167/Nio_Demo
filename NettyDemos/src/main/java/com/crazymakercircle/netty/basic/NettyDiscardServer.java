@@ -5,6 +5,9 @@ package com.crazymakercircle.netty.basic;
  **/
 
 import com.crazymakercircle.netty.NettyDemoConfig;
+import com.crazymakercircle.netty.decoder.StringHeaderDecoder;
+import com.crazymakercircle.netty.decoder.StringProcessHandler;
+import com.crazymakercircle.netty.decoder.StringReplayDecoder;
 import com.crazymakercircle.util.Logger;
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.buffer.PooledByteBufAllocator;
@@ -44,9 +47,13 @@ public class NettyDiscardServer {
             //5 装配子通道流水线
             b.childHandler(new ChannelInitializer<SocketChannel>() {
                 //有连接到达时会创建一个channel
+                @Override
                 protected void initChannel(SocketChannel ch) throws Exception {
                     // pipeline管理子通道channel中的Handler
                     // 向子channel流水线添加一个handler处理器
+                    ch.pipeline().addLast(new NettyDiscardHandler());
+                    ch.pipeline().addLast(new StringReplayDecoder());
+                    ch.pipeline().addLast(new StringProcessHandler());
                     ch.pipeline().addLast(new NettyDiscardHandler());
                 }
             });

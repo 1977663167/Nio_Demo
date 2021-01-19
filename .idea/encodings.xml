@@ -3,6 +3,7 @@
   <component name="Encoding" addBOMForNewFiles="with NO BOM">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/CocurrentDemos" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/NettyDemos" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/NioDemos" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/RedisDemos" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ZookeeperDemos" charset="UTF-8" />

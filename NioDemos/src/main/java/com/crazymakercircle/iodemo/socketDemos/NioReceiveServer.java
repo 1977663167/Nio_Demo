@@ -88,8 +88,7 @@ public class NioReceiveServer {
                     // 11、客户端新连接，切换为非阻塞模式
                     socketChannel.configureBlocking(false);
                     // 12、将客户端新连接通道注册到selector选择器上
-                    SelectionKey selectionKey =
-                            socketChannel.register(selector, SelectionKey.OP_READ);
+                    socketChannel.register(selector, SelectionKey.OP_READ);
                     // 余下为业务处理
                     Client client = new Client();
                     client.remoteAddress

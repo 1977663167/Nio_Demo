@@ -11,6 +11,7 @@ import java.nio.ByteBuffer;
 import java.nio.channels.FileChannel;
 import java.nio.channels.SocketChannel;
 import java.nio.charset.Charset;
+import java.util.concurrent.TimeUnit;
 
 
 /**
@@ -72,12 +73,14 @@ public class NioSendClient {
             ByteBuffer fileNameByteBuffer = charset.encode(destFile);
             socketChannel.write(fileNameByteBuffer);
 
+            TimeUnit.SECONDS.sleep(2);
             //发送文件长度
             ByteBuffer buffer = ByteBuffer.allocate(NioDemoConfig.SEND_BUFFER_SIZE);
             buffer.putLong(file.length());
 
             buffer.flip();
             socketChannel.write(buffer);
+            TimeUnit.SECONDS.sleep(2);
             buffer.clear();
 
 

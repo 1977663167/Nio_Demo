@@ -8,7 +8,42 @@
             <set />
           </value>
         </entry>
+        <entry key="/fragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/CocurrentDemos/src/main/java/com/crazymakercircle/coccurent/GuavaFutureDemo.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/NettyDemos/src/main/java/com/crazymakercircle/netty/basic/NettyDiscardServer.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/NettyDemos/src/main/java/com/crazymakercircle/netty/decoder/Byte2IntegerDecoderTester.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/NioDemos/src/main/java/com/crazymakercircle/ReactorModel/EchoHandler.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/NioDemos/src/main/java/com/crazymakercircle/ReactorModel/MultiThreadEchoHandler.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/NioDemos/src/main/java/com/crazymakercircle/bufferDemo/UseBuffer.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/NioDemos/src/main/java/com/crazymakercircle/iodemo/OIO/ConnectionPerThread.java">
           <value>
             <set />
           </value>
@@ -23,6 +58,16 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/NioDemos/src/main/java/com/crazymakercircle/iodemo/socketDemos/NioReceiveServer.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/NioDemos/src/main/java/com/crazymakercircle/iodemo/socketDemos/NioSendClient.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/chatcommon/pom.xml">
           <value>
             <set />
@@ -33,7 +78,42 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../netty02/chatclient/src/main/java/com/crazymakercircle/imClient/client/ClientApplication.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../netty02/chatserver/src/main/java/com/crazymakercircle/imServer/server/ChatServer.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/idea/fin-oper/fin-oper-web/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/idea/fin-oper/fin-oper-web/src/main/java/com/vipkid/fin/oper/web/controller/TaskController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/idea/fin-oper/fin-oper-web/src/main/java/com/vipkid/fin/oper/web/service/impl/FoAlipayhbServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/idea/fin-oper/fin-oper-web/src/main/java/com/vipkid/fin/oper/web/task/gainchannel/AlipayhbDownloadBillTask.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="D:/idea/fin-oper/fin-oper-web/src/main/java/com/vipkid/fin/oper/web/util/EmailUtils.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/idea/fin-oper/pom.xml">
           <value>
             <set />
           </value>

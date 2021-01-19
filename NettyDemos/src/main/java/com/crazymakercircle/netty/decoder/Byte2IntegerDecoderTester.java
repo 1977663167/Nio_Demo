@@ -28,12 +28,6 @@ public class Byte2IntegerDecoderTester {
             buf.writeInt(j);
             channel.writeInbound(buf);
         }
-
-        try {
-            Thread.sleep(Integer.MAX_VALUE);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
     }
 
 
