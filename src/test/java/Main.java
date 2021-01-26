@@ -23,6 +23,5 @@ public class Main {
         while (queue.size()>0){
             System.out.println("queue = " + queue.poll());
         }
-
     }
 }
