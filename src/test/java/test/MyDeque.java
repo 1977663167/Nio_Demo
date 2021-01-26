@@ -1,8 +1,5 @@
 package test;
 
-
-import com.google.common.collect.ForwardingDeque;
-
 import java.util.Collection;
 import java.util.Deque;
 import java.util.Iterator;
