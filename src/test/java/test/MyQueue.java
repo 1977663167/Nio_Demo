@@ -12,7 +12,6 @@ public class MyQueue<E> extends AbstractQueue<E> {
     private class Node {
         E val;
         Node next;
-//        Node pre;
         public Node(E val) {
             this.val = val;
         }
@@ -44,7 +43,6 @@ public class MyQueue<E> extends AbstractQueue<E> {
             head = n;
             tail = n;
             head.next = tail;
-//            tail.pre = head;
         } else {
             tail.next = n;
             tail = tail.next;
