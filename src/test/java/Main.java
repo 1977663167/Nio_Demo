@@ -1,5 +1,6 @@
 import test.MyDeque;
 import test.MyQueue;
+import test.MyStack;
 
 /**
  * @author GaoCai  电商交易平台，财务结算组
@@ -9,8 +10,15 @@ public class Main {
     public static void main(String[] args) {
 //        testQueue();
 
-        testDeque();
+//        testDeque();
 
+        MyStack myStack = new MyStack();
+        myStack.add(0, 5);
+        myStack.add(1, 5);
+        myStack.add(2, 5);
+        myStack.add(3, 5);
+        myStack.add(0, 0);
+        System.out.println("myStack = " + myStack);
     }
 
     private static void testDeque() {
