@@ -1,9 +1,8 @@
 import test.MyDeque;
 import test.MyQueue;
+import test.MyStack;
 
-import java.util.Arrays;
-import java.util.Comparator;
-import java.util.PriorityQueue;
+import java.util.*;
 
 /**
  * @author GaoCai  电商交易平台，财务结算组
@@ -14,21 +13,24 @@ public class Main {
 //        testQueue();
 
 //        testDeque();
-        String s = "0123456789";
-        char[] arr = s.toCharArray();
 
-        String s1 = new String(Arrays.copyOfRange(arr, 5, s.length()));
-        new PriorityQueue<String>(50, new Comparator<String>() {
-            @Override
-            public int compare(String o1, String o2) {
-                return o1.length()-o2.length();
-            }
-        });
-        char [] dp = {' ','g',' ','d','a',};
-        String result = "";
-            result+=new String(dp).replaceAll(" ","");
-        System.out.println("s = " + s1);
+//        testMystack();
     }
+
+    private static void testMystack() {
+        MyStack<Integer> myStack = new MyStack<>();
+        System.out.println("myStack.empty() = " + myStack.empty());
+//        System.out.println("myStack.pop() = " + myStack.pop());
+//        System.out.println("myStack.peek() = " + myStack.peek());
+        myStack.push(1);
+        myStack.push(2);
+        myStack.push(3);
+        while (!myStack.empty()){
+            System.out.println("myStack.peek() = " + myStack.peek());
+            System.out.println("myStack.pop() = " + myStack.pop());
+        }
+    }
+
     public static String longestPalindrome(String s) {
         if(s == "") return "";
         char[] arr = s.toCharArray();
